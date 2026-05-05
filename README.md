@@ -1,6 +1,9 @@
 # SCD31's Hair Electrolysis Machine with USB-C
 
+## DIY electrolysis carries risk of permanent scarring if done improperly. If something goes wrong, only you are responsible.
+
 If you're unfamiliar with the original project, please read about it here: https://www.scd31.com/posts/diy-hair-electrolysis-machine/
+
 ---
 
 I don't really care for mini USB, because who has mini USB cables in current year?
