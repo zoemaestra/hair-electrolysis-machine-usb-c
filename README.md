@@ -13,7 +13,7 @@ This reduced the per unit cost for 5 (excl. shipping) from £29 to £13.4, which
 
 Of course, you still need to assemble the other half and buy your own parts for it, but they're all big chunky components and can be found cheaply on aliexpress and so soldering should be quick and easy even if you aren't a pro.
 
-Additional BOM items:
+## Additional BOM items:
 | Component    | Link |
 | -------- | ------- |
 | 6X6X4.3MM SMD push button  | https://www.aliexpress.com/item/1005009796959203.html |
@@ -21,3 +21,4 @@ Additional BOM items:
 | SPDT slide switch | https://www.aliexpress.com/item/1005010455369321.html |
 | Buzzer | https://www.aliexpress.com/item/1005010400627387.html |
 
+The fabrication files are in the releases page. 
