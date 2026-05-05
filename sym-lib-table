@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SSD1306-128x64_OLED")(type "Legacy")(uri "${KIPRJMOD}/lib/SSD1306-128x64_OLED.lib")(options "")(descr ""))
+  (lib (name "Memory_Flash_Extra")(type "Legacy")(uri "${KIPRJMOD}/lib/Memory_Flash_Extra.lib")(options "")(descr ""))
+)
