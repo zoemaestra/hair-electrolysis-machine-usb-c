@@ -456,7 +456,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0 45)
 			(size 5 5)
-			(drill 2.5)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -3916,7 +3916,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0 45)
 			(size 5 5)
-			(drill 2.5)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -4376,7 +4376,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0 45)
 			(size 5 5)
-			(drill 2.5)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -6647,7 +6647,7 @@
 		(pad "1" thru_hole circle
 			(at 0 0 45)
 			(size 5 5)
-			(drill 2.5)
+			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -17300,7 +17300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17313,7 +17313,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
