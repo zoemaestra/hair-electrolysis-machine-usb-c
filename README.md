@@ -23,5 +23,6 @@ Of course, you still need to assemble the other half and buy your own parts for 
 | Rotary encoder EC11 | https://www.aliexpress.com/item/1005008583446552.html |
 | SPDT slide switch | https://www.aliexpress.com/item/1005010455369321.html |
 | Buzzer | https://www.aliexpress.com/item/1005010400627387.html |
+| 4x M3 14-18mm screws, ideally countersunk| |
 
 The fabrication files are in the releases page. 
