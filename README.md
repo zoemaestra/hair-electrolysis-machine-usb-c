@@ -4,6 +4,9 @@
 
 If you're unfamiliar with the original project, please read about it here: https://www.scd31.com/posts/diy-hair-electrolysis-machine/
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8bc5b822-48f8-4606-83c2-8a905726606c" />
+
+
 ---
 
 I don't really care for mini USB, because who has mini USB cables in current year?
