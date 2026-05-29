@@ -13,11 +13,9 @@ I don't really care for mini USB, because who has mini USB cables in current yea
 
 I also don't care for assembling SMD PCBs, so I opted to use JLCPCB's assembly service. I found that since it was a double sided board, it would be quite a bit more expensive than anticipated.
 
-I've made some very minor changes to the board so all the SMD components are on the top side, and that way you only need to pay for the economic assembly.
+I've made some very minor changes to the board so all the SMD components are on the top side, and that way you only need to pay for the economic assembly. This cuts down on total cost by quite a lot!
 
-This reduced the per unit cost for 5 (excl. shipping) from £29 to £13.4, which is a massive difference when you're ordering 5 of them.
-
-Of course, you still need to assemble the other half and buy your own parts for it, but they're all big chunky components and can be found cheaply on aliexpress and so soldering should be quick and easy even if you aren't a pro.
+Of course, you still need to assemble the other half and buy your own parts for it, but they're all big chunky components and can be found cheaply on aliexpress and so soldering should be quick and easy even if you aren't a pro. The fabrication files are in the releases page.
 
 ## Additional BOM items:
 | Component    | Link |
@@ -28,4 +26,26 @@ Of course, you still need to assemble the other half and buy your own parts for 
 | Buzzer | https://www.aliexpress.com/item/1005010400627387.html |
 | 4x M3 14-18mm screws, ideally countersunk| |
 
-The fabrication files are in the releases page. 
+## Cost breakdown:
+This only applies to my order - there will be changes depending on where you live and what is available to you.
+
+| Vendor | Item | Qty | Total Cost | Calculated Per Unit Cost |
+| :--- | :--- | :---: | :---: | :---: |
+| **JLCPCB** | Boards w/ shipping, single sided assembly | 5 | £85.34 | £17.07 |
+| **AliExpress** | tens pads | 10 | £2.50 | £0.25 |
+| **AliExpress** | 2.5mm pin tens cables | 10 | £3.85 | £0.39 |
+| **AliExpress** | buzzer | 10 | £1.37 | £0.14 |
+| **AliExpress** | EC11 rotary encoder | 5 | £3.55 | £0.71 |
+| **AliExpress** | slide switch | 20 | £1.50 | £0.08 |
+| **AliExpress** | push buttons | 50 | £1.18 | £0.02 |
+| **AliExpress** | OLEDs | 5 | £7.60 | £1.52 |
+| **AliExpress** | 3.5mm 2 pole jacks | 20 | £3.00 | £0.15 |
+| **eBay** | Harting female d sub 20-24 AWG contacts | 10 | £3.27 | £0.33 |
+
+Total Price: £113.16
+
+Total Per-Unit Cost: £22.63
+
+Calculated per unit costs are rounded to the nearest penny and the price of the needles are not included as they are consumables.
+
+I bought a 50 pack of Sterex F4S needles for £34 from Ebay.
