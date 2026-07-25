@@ -42,6 +42,7 @@ This only applies to my order - there will be changes depending on where you liv
 | **AliExpress** | push buttons | 50 | £1.18 | £0.02 |
 | **AliExpress** | OLEDs | 5 | £7.60 | £1.52 |
 | **AliExpress** | 3.5mm 2 pole jacks | 20 | £3.00 | £0.15 |
+| **AliExpress** | Foot pedal | 1 | £2.00 | £2.00 |
 | **eBay** | Harting female d sub 20-24 AWG contacts | 10 | £3.27 | £0.33 |
 
 Total Price: £113.16
