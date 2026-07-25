@@ -13,7 +13,7 @@ I don't really care for mini USB, because who has mini USB cables in current yea
 
 I also don't care for assembling SMD PCBs, so I opted to use JLCPCB's assembly service. I found that since it was a double sided board, it would be quite a bit more expensive than anticipated.
 
-I've made some very minor changes to the board so all the SMD components are on the top side, and that way you only need to pay for the economic assembly. This cuts down on total cost by quite a lot! The BOM.
+I've made some very minor changes to the board so all the SMD components are on the top side, and that way you only need to pay for the economic assembly. This cuts down on total cost by quite a lot!
 
 Of course, you still need to assemble the other half and buy your own parts for it, but they're all big chunky components and can be found cheaply on aliexpress and so soldering should be quick and easy even if you aren't a pro. The fabrication files are in the releases page.
 
