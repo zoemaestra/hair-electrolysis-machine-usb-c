@@ -19,7 +19,7 @@ I've made some very minor changes to the board so all the SMD components are on 
 
 Of course, you still need to assemble the other half and buy your own parts for it, but they're all big chunky components and can be found cheaply on aliexpress and so soldering should be quick and easy even if you aren't a pro. The fabrication files are in the releases page.
 
-Use **bom.xls** with JLC and it should use parts that JLC are more likely to have in stock. You may need to make some like-for-like substitutions if something is out of stock.
+You should really read the guide on how to use this repo: https://imzoe.me/projects/electrolysis/electrolysis
 
 ## Additional BOM items:
 | Component    | Link |
