@@ -9579,7 +9579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 160.02 69.85 0)
 			(effects
 				(font
@@ -9606,7 +9606,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52994072"
+		(property "LCSC" "C316049"
 			(at 165.1 69.85 0)
 			(effects
 				(font
