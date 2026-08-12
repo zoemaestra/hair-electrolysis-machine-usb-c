@@ -244,16 +244,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 166.37 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e0f60a-bbdc-4ace-868d-e524f4bfbf53")
-	)
-	(wire
-		(pts
 			(xy 33.02 30.48) (xy 38.1 30.48)
 		)
 		(stroke
@@ -264,16 +254,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 74.93) (xy 228.6 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35190cb7-2ccf-4268-9d78-ceb340ed72c0")
-	)
-	(wire
-		(pts
 			(xy 27.94 30.48) (xy 30.48 30.48)
 		)
 		(stroke
@@ -281,36 +261,6 @@
 			(type default)
 		)
 		(uuid "434ded7d-0017-4f70-ac69-eebaeb864cd1")
-	)
-	(wire
-		(pts
-			(xy 189.23 72.39) (xy 228.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e0c615e-a1dc-4810-b360-c36b75b1c033")
-	)
-	(wire
-		(pts
-			(xy 217.17 78.74) (xy 228.6 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87cdc9a5-8e2a-4b2b-8a38-9121e6eb15a2")
-	)
-	(wire
-		(pts
-			(xy 217.17 81.28) (xy 228.6 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f87489-e5e1-4b4c-ad46-c15e9c875536")
 	)
 	(wire
 		(pts
@@ -331,56 +281,6 @@
 			(type default)
 		)
 		(uuid "d8256e12-1f0f-47f1-a00c-59293530a52a")
-	)
-	(wire
-		(pts
-			(xy 154.94 67.31) (xy 166.37 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93ec6c5-99ec-4a9a-bf7e-065662af1c8d")
-	)
-	(label "I2C1_SDA"
-		(at 217.17 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72230bab-5ede-46d9-901c-e4bca2aed142")
-	)
-	(label "I2C1_SDA"
-		(at 154.94 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96100a18-a939-46f8-9516-5bdbaa07dc61")
-	)
-	(label "I2C1_SCL"
-		(at 154.94 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "979a2841-6387-4549-8728-e60bb7bb97d0")
-	)
-	(label "I2C1_SCL"
-		(at 217.17 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd1a52c1-9b97-4ea1-9d65-515e80105860")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -792,132 +692,10 @@
 				(justify left top)
 			)
 		)
-		(pin "OUTPUT_HIGH_SIDE" input
-			(at 228.6 72.39 180)
-			(uuid "2a36156a-bfe8-4bb6-a079-2cda77e70fca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT_LOW_SIDE" input
-			(at 228.6 74.93 180)
-			(uuid "f96bbde3-695d-4f71-b014-ce71494d61ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C1_SCL" output
-			(at 228.6 78.74 180)
-			(uuid "7a3d9b2c-ddf9-4266-878e-6e558050ba16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C1_SDA" bidirectional
-			(at 228.6 81.28 180)
-			(uuid "c5f92093-00b7-4acd-bcaf-c3bc18bdb996")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 166.37 66.04)
-		(size 22.86 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f31a304a-df48-4efd-876b-aece46cb5b6b")
-		(property "Sheetname" "Output"
-			(at 166.37 65.3284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "output.kicad_sch"
-			(at 166.37 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUTPUT_HIGH_SIDE" output
-			(at 189.23 72.39 0)
-			(uuid "3bffefb1-7ee9-4605-ba74-1ae5dc9327d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUTPUT_LOW_SIDE" output
-			(at 189.23 74.93 0)
-			(uuid "7b43032e-4d7d-4ed2-9aaf-248f8bed1118")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C_SCL" input
-			(at 166.37 67.31 180)
-			(uuid "b0af2dd2-5278-42fb-8623-89f487218cb8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SDA" bidirectional
-			(at 166.37 69.85 180)
-			(uuid "9f1ac268-adc1-488c-afe2-0c32dd7e805d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "hair-electrolysis-machine"
-				(path "/724ce5ca-e5bf-4553-b755-84be7690a548"
-					(page "4")
 				)
 			)
 		)
