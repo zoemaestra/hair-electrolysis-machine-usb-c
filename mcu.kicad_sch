@@ -5827,7 +5827,7 @@
 	)
 	(text "R for self-testing"
 		(exclude_from_sim no)
-		(at 257.81 40.132 0)
+		(at 248.412 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5840,12 +5840,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00ecc306-e42d-4163-bb92-0dae05cbabc1")
-	)
-	(junction
-		(at 247.65 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "086f0eda-846d-4aec-9d0a-84eb969e899d")
 	)
 	(junction
 		(at 71.12 80.01)
@@ -5878,12 +5872,6 @@
 		(uuid "258631c7-9ddb-4482-91e7-463f030fc3e3")
 	)
 	(junction
-		(at 251.46 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "261689a6-45cf-4b5d-8d76-238fbc7bca97")
-	)
-	(junction
 		(at 49.53 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5914,6 +5902,12 @@
 		(uuid "33c05f68-b028-493e-a914-dbcfccb877d3")
 	)
 	(junction
+		(at 240.03 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3834c7e8-308c-4771-8730-aca11170e3e3")
+	)
+	(junction
 		(at 39.37 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5926,12 +5920,6 @@
 		(uuid "533e95a3-ba88-4596-8380-23c0ed42d320")
 	)
 	(junction
-		(at 266.7 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fc91953-db41-4647-8b6e-2784f8e2ead5")
-	)
-	(junction
 		(at 167.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5942,12 +5930,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "799abb50-d098-4864-9b7a-7f2fab573bb5")
-	)
-	(junction
-		(at 247.65 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83794e05-1c76-419b-9e78-6296312f3938")
 	)
 	(junction
 		(at 261.62 116.84)
@@ -6076,19 +6058,31 @@
 		(uuid "f9661f1f-c190-40b4-9255-df7707692ba5")
 	)
 	(no_connect
-		(at 269.24 29.21)
-		(uuid "14378a7b-d7ee-4873-9ada-0dcef917f537")
+		(at 250.19 35.56)
+		(uuid "0b5c187e-4834-4fcf-9f66-dd38674a5cb0")
 	)
 	(no_connect
-		(at 269.24 31.75)
-		(uuid "38e5e5b2-37c7-46c2-8d92-21904230b83d")
+		(at 250.19 40.64)
+		(uuid "1cb370a4-856d-4714-9721-d7bf0f2e8098")
+	)
+	(no_connect
+		(at 250.19 33.02)
+		(uuid "27bf3fbf-bf55-44c2-ad6e-54921ca96c87")
+	)
+	(no_connect
+		(at 250.19 30.48)
+		(uuid "5134737e-ab48-40d3-80f1-15c817621f11")
 	)
 	(no_connect
 		(at 195.58 96.52)
 		(uuid "78b4d1d6-9f44-4859-ab64-a2059e0eeeaa")
 	)
 	(no_connect
-		(at 250.19 66.04)
+		(at 250.19 53.34)
+		(uuid "8ea64f12-5b80-4447-bdf2-5013fe852790")
+	)
+	(no_connect
+		(at 250.19 58.42)
 		(uuid "91999f5f-a55f-489b-b976-798e12df3bc0")
 	)
 	(no_connect
@@ -6096,8 +6090,8 @@
 		(uuid "bdfefbc3-2bc1-4679-b79a-543295088050")
 	)
 	(no_connect
-		(at 250.19 71.12)
-		(uuid "df229c6b-6b50-444d-831b-456be3ef4f51")
+		(at 250.19 55.88)
+		(uuid "dcd6c764-0e32-4ec0-acf2-f9a87def309e")
 	)
 	(wire
 		(pts
@@ -6361,17 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 68.58) (xy 247.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a7c4864-f4e2-4f2f-9b0c-96ff5eefd8ac")
-	)
-	(wire
-		(pts
-			(xy 269.24 24.13) (xy 266.7 24.13)
+			(xy 240.03 38.1) (xy 250.19 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6398,16 +6382,6 @@
 			(type default)
 		)
 		(uuid "205963b7-a6a9-4ee0-88b2-8cc11180c13c")
-	)
-	(wire
-		(pts
-			(xy 251.46 24.13) (xy 251.46 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "211068c7-5f48-44bb-9669-12db2b35c494")
 	)
 	(wire
 		(pts
@@ -6601,6 +6575,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 38.1) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397c2cd2-fc8a-4d8e-88ec-bc4fae272684")
+	)
+	(wire
+		(pts
 			(xy 27.94 162.56) (xy 43.18 162.56)
 		)
 		(stroke
@@ -6741,16 +6725,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 34.29) (xy 269.24 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48db65dd-6fdc-4f7a-8b7c-a68031e553f3")
-	)
-	(wire
-		(pts
 			(xy 195.58 99.06) (xy 209.55 99.06)
 		)
 		(stroke
@@ -6808,16 +6782,6 @@
 			(type default)
 		)
 		(uuid "4c91ed4c-b863-47fa-81b6-64f72e2016e0")
-	)
-	(wire
-		(pts
-			(xy 247.65 68.58) (xy 247.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dbbde48-2ab8-4360-8049-db99931d14e0")
 	)
 	(wire
 		(pts
@@ -6911,16 +6875,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 95.25) (xy 254 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60486ed9-c6d3-4368-9005-a6a32211f767")
-	)
-	(wire
-		(pts
 			(xy 266.7 142.24) (xy 266.7 143.51)
 		)
 		(stroke
@@ -6938,26 +6892,6 @@
 			(type default)
 		)
 		(uuid "64ec6c11-f833-42a5-b32d-b6c87303bedb")
-	)
-	(wire
-		(pts
-			(xy 269.24 26.67) (xy 266.7 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66532be8-d87a-4779-9ffb-c05c417255d5")
-	)
-	(wire
-		(pts
-			(xy 266.7 26.67) (xy 266.7 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c67f20-3075-4856-b237-17030ab301f1")
 	)
 	(wire
 		(pts
@@ -7031,7 +6965,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 60.96) (xy 247.65 60.96)
+			(xy 223.52 60.96) (xy 250.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7161,7 +7095,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 24.13) (xy 251.46 24.13)
+			(xy 223.52 38.1) (xy 240.03 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7411,6 +7345,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 63.5) (xy 242.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c16d87-f0c9-409c-ae2e-99957f38e24f")
+	)
+	(wire
+		(pts
 			(xy 195.58 93.98) (xy 196.85 93.98)
 		)
 		(stroke
@@ -7428,6 +7372,16 @@
 			(type default)
 		)
 		(uuid "a4337a0a-3608-4088-b708-56c09bbf0238")
+	)
+	(wire
+		(pts
+			(xy 262.89 95.25) (xy 254 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59497d4-4b75-4138-bb96-cd2fed69a101")
 	)
 	(wire
 		(pts
@@ -7558,16 +7512,6 @@
 			(type default)
 		)
 		(uuid "b9d738ee-ccaf-4e1d-9256-3db13d828ce3")
-	)
-	(wire
-		(pts
-			(xy 226.06 24.13) (xy 251.46 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bab4d4e7-7d3c-4155-a541-82956b241db1")
 	)
 	(wire
 		(pts
@@ -7761,16 +7705,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 63.5) (xy 247.65 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde511ff-9184-44a4-a8ff-89dc59b913c6")
-	)
-	(wire
-		(pts
 			(xy 99.06 119.38) (xy 102.87 119.38)
 		)
 		(stroke
@@ -7808,16 +7742,6 @@
 			(type default)
 		)
 		(uuid "d467877c-2fbe-4f7d-bc38-590a7a203087")
-	)
-	(wire
-		(pts
-			(xy 254 34.29) (xy 251.46 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c87540-9fe8-4261-a291-81f71297e175")
 	)
 	(wire
 		(pts
@@ -8081,16 +8005,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 60.96) (xy 250.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bd7187-dfc2-4c0e-bd64-5a085d2cd791")
-	)
-	(wire
-		(pts
 			(xy 27.94 154.94) (xy 43.18 154.94)
 		)
 		(stroke
@@ -8098,16 +8012,6 @@
 			(type default)
 		)
 		(uuid "f6f1f6ec-d116-4da5-b7e6-e23b7768449f")
-	)
-	(wire
-		(pts
-			(xy 250.19 63.5) (xy 247.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f728e016-fba8-44cc-9b26-ca8fa04017b3")
 	)
 	(wire
 		(pts
@@ -8370,7 +8274,7 @@
 		(uuid "85983869-2787-450a-bfdb-810570b12639")
 	)
 	(label "FOLLICLE_ELECTRODE"
-		(at 226.06 24.13 0)
+		(at 223.52 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12075,6 +11979,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 262.89 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6031f019-9fe0-41e1-bd29-49afaf122b87")
+		(property "Reference" "#PWR080"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 267.716 95.25 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 262.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ec4004c-ad6e-4ba1-a82b-84361240c5d6")
+		)
+		(instances
+			(project "hair-electrolysis-machine"
+				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 38.1 0)
 		(unit 1)
@@ -13284,7 +13253,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 255.27 63.5 0)
+		(at 255.27 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13293,7 +13262,7 @@
 		(dnp no)
 		(uuid "87102e2e-2de0-49c5-9e4e-75a43144208a")
 		(property "Reference" "J4"
-			(at 252.73 57.912 0)
+			(at 252.73 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13271,7 @@
 			)
 		)
 		(property "Value" "AudioJack2_Ground_Switch"
-			(at 237.744 55.118 0)
+			(at 250.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13280,7 @@
 			)
 		)
 		(property "Footprint" "2.5mm:Jack_2.5mm_PJ242_6P_12x6.2x4mm_Horizontal"
-			(at 255.27 63.5 0)
+			(at 255.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 63.5 0)
+			(at 255.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +13298,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 255.27 63.5 0)
+			(at 255.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,7 +13307,7 @@
 			)
 		)
 		(property "LCSC" "C16684"
-			(at 255.27 63.5 0)
+			(at 255.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13821,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 257.81 34.29 270)
+		(at 246.38 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13860,7 +13829,7 @@
 		(dnp no)
 		(uuid "95b68f02-cb2b-411c-a689-6564b472cf85")
 		(property "Reference" "R42"
-			(at 257.81 36.83 90)
+			(at 246.38 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13868,7 +13837,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 257.556 34.29 90)
+			(at 246.126 63.5 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -13876,7 +13845,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 257.81 32.512 90)
+			(at 246.38 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13885,7 +13854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 34.29 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,7 +13863,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 257.81 34.29 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,7 +13872,7 @@
 			)
 		)
 		(property "LCSC" "C23179"
-			(at 257.81 34.29 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15148,7 +15117,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
-		(at 274.32 26.67 0)
+		(at 255.27 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15157,7 +15126,7 @@
 		(dnp no)
 		(uuid "b6392ac8-5c86-4044-ab4a-aada7829b311")
 		(property "Reference" "J3"
-			(at 271.78 21.082 0)
+			(at 252.73 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15166,7 +15135,7 @@
 			)
 		)
 		(property "Value" "AudioJack2_Ground_Switch"
-			(at 256.794 18.288 0)
+			(at 251.206 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15175,7 +15144,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
-			(at 274.32 26.67 0)
+			(at 255.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,7 +15153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 26.67 0)
+			(at 255.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +15162,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-			(at 274.32 26.67 0)
+			(at 255.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,7 +15171,7 @@
 			)
 		)
 		(property "LCSC" "C16684"
-			(at 274.32 26.67 0)
+			(at 255.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16498,7 +16467,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 95.25 0)
+		(at 262.89 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16507,7 +16476,7 @@
 		(fields_autoplaced yes)
 		(uuid "de8d6ce5-9136-48dd-9ab3-cd321ecf33a4")
 		(property "Reference" "#PWR05"
-			(at 271.78 101.6 0)
+			(at 262.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 100.33 0)
+			(at 262.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16524,7 +16493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 95.25 0)
+			(at 262.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +16502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 95.25 0)
+			(at 262.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 95.25 0)
+			(at 262.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16554,7 +16523,7 @@
 			(uuid "12c869f6-2f52-4589-9cf5-5533b4f6bd36")
 		)
 		(instances
-			(project ""
+			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
 					(reference "#PWR05")
 					(unit 1)
@@ -16883,71 +16852,6 @@
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
 					(reference "U8")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 262.89 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed2b15e9-ed7f-4a92-a8e9-9b4761aeb57c")
-		(property "Reference" "#PWR070"
-			(at 259.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 267.716 97.79 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 262.89 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6ca966f-48c8-4d7b-923b-667844a33cf0")
-		)
-		(instances
-			(project "hair-electrolysis-machine"
-				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR070")
-					(unit 1)
 				)
 			)
 		)
