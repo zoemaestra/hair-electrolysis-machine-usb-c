@@ -310,7 +310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 38.1 27.94 0)
 			(effects
 				(font
@@ -357,7 +357,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e7d5445-d9cf-47b5-871f-81571cf2b28f")
 		(property "Reference" "H1"
 			(at 25.4 25.4578 0)
@@ -377,7 +376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 22.86 27.94 0)
 			(effects
 				(font
@@ -510,7 +509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 33.02 27.94 0)
 			(effects
 				(font
@@ -577,7 +576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 27.94 27.94 0)
 			(effects
 				(font

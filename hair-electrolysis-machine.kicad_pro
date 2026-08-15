@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.0,
-          "height": 2.0,
-          "width": 5.0
+          "drill": 1.5,
+          "height": 3.5,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,80 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|133350000|104777501|149fb169-6519-4c00-8d44-2baeeb370c21|61f8efcf-8dff-4a8a-9479-5f5cfc187e5f",
-          ""
-        ],
-        [
-          "clearance|136000000|80610000|93d87054-c3d6-4abf-8731-014707a9cffb|9a375b52-f07b-4a7a-a3e7-e678f3da0836",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|149270000|96900000|956da6cd-b9fe-406f-bed8-b7a1ac21611f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|123050000|81599999|26d52373-19f9-4ed9-a584-2db1f88d09d1|aa41cd8a-671f-451e-8404-14c1f4c800a3",
-          ""
-        ],
-        [
-          "silk_edge_clearance|123050000|87900000|26d52373-19f9-4ed9-a584-2db1f88d09d1|24ccc1d4-10ef-405c-80cd-ec8d9c890874",
-          ""
-        ],
-        [
-          "silk_edge_clearance|138400000|71000000|9d0e63b7-bd22-44e9-b195-453997ef67fc|91a6d311-b6dd-4681-97b6-e4ca62340d40",
-          ""
-        ],
-        [
-          "silk_edge_clearance|138400000|71000000|9d0e63b7-bd22-44e9-b195-453997ef67fc|f08db36c-f81c-426c-9305-c93f947bf14a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|139900000|71000000|9d0e63b7-bd22-44e9-b195-453997ef67fc|01cdcb2a-6e30-49f5-bc02-4e5e67a6758d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|145900000|71000000|2ab58ca9-d2ce-46c0-bbda-4266dd56717f|021c2666-a06e-47a7-b2d5-b1faaeffe2e2",
-          ""
-        ],
-        [
-          "silk_edge_clearance|145900000|71000000|2ab58ca9-d2ce-46c0-bbda-4266dd56717f|19b9ce70-0028-4ea3-acf5-49f284e02d15",
-          ""
-        ],
-        [
-          "silk_edge_clearance|147400000|71000000|2ab58ca9-d2ce-46c0-bbda-4266dd56717f|430c7bc7-3e1c-4d17-b691-a67b1439d728",
-          ""
-        ],
-        [
-          "silk_edge_clearance|151400000|71000000|6a378c15-9ab3-4e5e-80f7-6e30a0e37451|09809755-3c51-4de0-b4bd-a206bc1b080c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|151400000|71000000|6a378c15-9ab3-4e5e-80f7-6e30a0e37451|24e12c73-95ee-45ed-a9f4-97c74b04fbf1",
-          ""
-        ],
-        [
-          "silk_edge_clearance|152900000|71000000|6a378c15-9ab3-4e5e-80f7-6e30a0e37451|1c0e5d7b-db5d-40bc-8e7c-8b94497b031f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|158900000|71000000|c245f57e-a165-4520-9724-bb09e668a0c3|1c7ea11f-6d71-4bf4-a587-7c454228b6f1",
-          ""
-        ],
-        [
-          "silk_edge_clearance|158900000|71000000|c245f57e-a165-4520-9724-bb09e668a0c3|67aa0276-2317-47c6-a8e6-eba383ca5fba",
-          ""
-        ],
-        [
-          "silk_edge_clearance|160400000|71000000|c245f57e-a165-4520-9724-bb09e668a0c3|d084b12d-f192-4f25-86e5-285a494ef938",
-          ""
-        ],
-        [
-          "silk_over_copper|151100000|110550000|c2155999-7dd3-47ee-82c4-fe4bd7f7b92e|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -261,7 +188,9 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.2,
+        0.5,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -712,10 +641,6 @@
     [
       "cdc4525c-ab23-4870-9f65-db2094403a54",
       "Mcu"
-    ],
-    [
-      "f31a304a-df48-4efd-876b-aece46cb5b6b",
-      "Output"
     ]
   ],
   "text_variables": {}

@@ -3826,7 +3826,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52148407"
+		(property "LCSC" "C169433"
 			(at 190.5 41.91 0)
 			(effects
 				(font
@@ -5466,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52148407"
+		(property "LCSC" "C169433"
 			(at 124.46 151.13 90)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -7469,7 +7469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 135.89 105.41 0)
 			(effects
 				(font

@@ -1,4 +1,18 @@
-24852518893011636
+24838508598039147
+2.5mm
+Jack_2.5mm_PJ242_6P_12x6.2x4mm_Horizontal
+Jack 2.5 mm audio connector
+2.5, Jack, PJ-242, AudioJack3_Ground_SwitchTR
+0
+6
+6
+2.5mm
+mraow
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1655,6 +1669,34 @@ Button_Switch_SMD
 SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS
 Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf
 switch tactile SPST 1P1T straight NO SMTR C&K
+0
+2
+2
+Button_Switch_SMD
+TS4538B3JTP Push button switch
+
+
+0
+3
+2
+Button_Switch_SMD
+Untitled
+
+
+0
+0
+0
+Button_Switch_SMD
+Untitled_1
+
+
+0
+3
+3
+Button_Switch_SMD
+YZA-032-5.0W
+
+
 0
 2
 2
@@ -66177,14 +66219,14 @@ Yellow 5381 Series LED
 0
 2
 2
-MIFI Antenna
+MIFA
 ESPRESSIF_ESP32_MIFA_2.4GHz_LEFT
 https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 PCB antenna
 0
 2
 2
-MIFI Antenna
+MIFA
 ESPRESSIF_ESP32_MIFA_2.4GHz_Right
 https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 PCB antenna
@@ -91538,13 +91580,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SSD1306
-128x64OLED
-
-
-0
-4
-4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -93225,13 +93260,6 @@ SOT95P280X100-5N
 0
 5
 5
-TYPE-C 24P QT 143
-CONN_TYPE-C-24P_SHH
-
-TYPE-C 24P QT 143 
-0
-28
-25
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99091,69 +99119,6 @@ igbt diode module
 0
 25
 25
-USB-C
-1206_reverse_mount_LED
-Everlight 26-21/BHC-ATW/CA, LCSC Part # C264553
-
-0
-2
-2
-USB-C
-AMPHENOL_12401832E402A
-
-
-0
-28
-28
-USB-C
-APA102-2020
-
-
-0
-8
-6
-USB-C
-DX07S016JA3R1500
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-22
-17
-USB-C
-TYPE-C-31-M-04
-USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
-USB C Type-C Receptacle Hybrid
-0
-28
-28
-USB-C
-TYPE-C-31-M-14
-Korean Hroparts Elec, Power only USB connector supporting up to 3A
-
-0
-20
-17
-USB-C
-U-A-39DS-Y-1
-
-
-0
-11
-10
-USB-C
-U-B-M9DD-W-1
- Korean Hroparts Elec, USB 3.0 Type B
-USB3
-0
-9
-9
-USB-C
-U-F-10SW-Y-1
-Korean Hroparts Elec, USB 3.0 Female Micro-B, 1.5A 2 Surface Mount 5+5
-USB3
-0
-16
-11
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -99939,23 +99904,9 @@ Varistor VF
 2
 2
 zoe
-MK-12C03-G015
-
-
-0
-3
-3
-zoe
 SOT-23-CBE
 SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
-0
-3
-3
-zoe
-SS-12D01-G040
-
-
 0
 3
 3
