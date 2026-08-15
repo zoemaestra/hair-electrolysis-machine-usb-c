@@ -3941,7 +3941,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 1.29 90)
+			(at -0.99 1.5 90)
 			(layer "F.SilkS")
 			(uuid "7bbf1828-0a74-467c-ab76-7ba6585cf448")
 			(effects
@@ -7537,7 +7537,7 @@
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D14"
-			(at 0 1.22 90)
+			(at 0.25 -2.04 180)
 			(layer "F.SilkS")
 			(uuid "c95dd6c1-39bc-40a1-960e-541424cd7dd4")
 			(effects
@@ -19151,7 +19151,7 @@
 		(descr "Diode SMF (DO-219AB), http://www.vishay.com/docs/95572/smf_do-219ab.pdf")
 		(tags "Diode SMF (DO-214AB)")
 		(property "Reference" "D21"
-			(at 0 -2 90)
+			(at 3.07 -0.25 180)
 			(layer "F.SilkS")
 			(uuid "28a42256-e399-4cd6-87d4-f82c4655c78c")
 			(effects
@@ -19387,7 +19387,7 @@
 			(uuid "74be65ae-13b2-43bd-a59a-e885b0359678")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at -0.04 0.01 90)
 			(layer "F.Fab")
 			(uuid "b143cc86-a7bf-4486-87d1-1b86d18bc65e")
 			(effects
