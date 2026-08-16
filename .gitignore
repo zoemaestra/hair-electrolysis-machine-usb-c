@@ -1,0 +1,24 @@
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# KiCad specific
+fp-info-cache
+
+# Backups and Autosaves
+*-backups/
+*.bak
+*.bck
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+*-save.kicad_prl
+
+# Lock files
+~*.lck
+*.lck
