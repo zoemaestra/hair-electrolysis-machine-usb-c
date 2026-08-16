@@ -6533,16 +6533,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 114.3 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4c0f0e-c9d0-4fa8-a5cc-e01611400d66")
-	)
-	(wire
-		(pts
 			(xy 152.4 60.96) (xy 154.94 60.96)
 		)
 		(stroke
@@ -7183,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 114.3) (xy 102.87 114.3)
+			(xy 99.06 114.3) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7993,7 +7983,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 101.6) (xy 43.18 101.6)
+			(xy 27.94 101.6) (xy 43.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8033,7 +8023,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 102.87 119.38)
+			(xy 99.06 119.38) (xy 114.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8070,16 +8060,6 @@
 			(type default)
 		)
 		(uuid "d467877c-2fbe-4f7d-bc38-590a7a203087")
-	)
-	(wire
-		(pts
-			(xy 107.95 114.3) (xy 114.3 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b2a3b4-670d-4cbb-9234-fb59c7f998e7")
 	)
 	(wire
 		(pts
@@ -8542,7 +8522,7 @@
 		(uuid "5707b443-fa80-42e5-80b8-68cc83286e6a")
 	)
 	(label "~{RESET}"
-		(at 34.29 101.6 0)
+		(at 27.94 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9605,7 +9585,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49108628"
+		(property "LCSC" "C720477"
 			(at 158.75 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11400,7 +11380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:YZA-032-5.0W"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR025"
 			(at 226.06 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11433,7 +11413,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49108628"
+		(property "LCSC" "C720477"
 			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15194,7 +15174,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49108628"
+		(property "LCSC" "C720477"
 			(at 158.75 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17379,98 +17359,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 105.41 119.38 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4778e05-a8cd-4c6b-ae79-6a169dd0a574")
-		(property "Reference" "R30"
-			(at 103.378 117.602 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22R"
-			(at 105.41 119.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 105.41 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 105.41 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76a18df0-3697-4e48-9e35-a0fed632517d")
-		)
-		(pin "2"
-			(uuid "2a210d89-b795-4fc0-80a0-1097074c5445")
-		)
-		(instances
-			(project "hair-electrolysis-machine"
-				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 266.7 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -17726,98 +17614,6 @@
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 105.41 114.3 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d2a0508d-8269-4dca-aad1-30ee181cc2d1")
-		(property "Reference" "R29"
-			(at 103.378 112.522 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22R"
-			(at 105.41 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 105.41 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23345"
-			(at 105.41 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0def460-f9bc-4f65-9540-5f151310c36f")
-		)
-		(pin "2"
-			(uuid "040e237e-d9ba-4608-8659-d2fdfb06751a")
-		)
-		(instances
-			(project "hair-electrolysis-machine"
-				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R29")
 					(unit 1)
 				)
 			)
