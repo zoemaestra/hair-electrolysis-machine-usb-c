@@ -3183,7 +3183,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32G0:STM32G0B1RETx"
+		(symbol "MCU_ST_STM32G0:STM32G0B1RBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3200,7 +3200,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32G0B1RETx"
+			(property "Value" "STM32G0B1RBTx"
 				(at 5.08 46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3223,7 +3223,7 @@
 					(justify right)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1re.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1rb.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3234,7 +3234,7 @@
 					)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 512KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 60 GPIO, LQFP64"
+			(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 60 GPIO, LQFP64"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3267,7 +3267,7 @@
 					)
 				)
 			)
-			(symbol "STM32G0B1RETx_0_1"
+			(symbol "STM32G0B1RBTx_0_1"
 				(rectangle
 					(start -25.4 -45.72)
 					(end 25.4 45.72)
@@ -3280,7 +3280,7 @@
 					)
 				)
 			)
-			(symbol "STM32G0B1RETx_1_1"
+			(symbol "STM32G0B1RBTx_1_1"
 				(pin bidirectional line
 					(at -27.94 -27.94 0)
 					(length 2.54)
@@ -9541,7 +9541,7 @@
 				)
 			)
 		)
-		(property "Value" "RST"
+		(property "Value" "BTN"
 			(at 158.75 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -10742,15 +10742,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 49.53 32.004 90)
+		(property "Value" "100K1%"
+			(at 49.53 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -10786,7 +10785,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14675"
+		(property "LCSC" "C25803"
 			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11370,7 +11369,7 @@
 				)
 			)
 		)
-		(property "Value" "TRIGGER"
+		(property "Value" "BTN"
 			(at 226.06 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13903,7 +13902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32G0:STM32G0B1RETx")
+		(lib_id "MCU_ST_STM32G0:STM32G0B1RBTx")
 		(at 71.12 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -13913,7 +13912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82a88a3d-c5b8-4067-91f6-9e14cb47735f")
+		(uuid "7a7d40a7-c130-4c80-a2d2-d100bc3ec27e")
 		(property "Reference" "U1"
 			(at 73.2633 180.34 0)
 			(show_name no)
@@ -13925,7 +13924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G0B1RETx"
+		(property "Value" "STM32G0B1RBTx"
 			(at 73.2633 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +13947,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1re.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1rb.pdf"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13959,7 +13958,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 512KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 60 GPIO, LQFP64"
+		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 128KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 60 GPIO, LQFP64"
 			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13970,197 +13969,208 @@
 				)
 			)
 		)
-		(pin "38"
-			(uuid "e1e0979b-18f0-40e4-8cad-3c0e9adb575a")
-		)
-		(pin "25"
-			(uuid "fe9425b8-c537-4c84-976b-46c449d48f22")
-		)
-		(pin "26"
-			(uuid "d146d965-d6db-4094-8e0f-634f54eafce6")
-		)
-		(pin "62"
-			(uuid "d8367d68-f675-4a70-b5e0-95e202653b68")
-		)
-		(pin "31"
-			(uuid "df518078-c931-49b9-a9c9-e41ffd7e29a1")
-		)
-		(pin "33"
-			(uuid "d5e8cde4-ca5e-4c41-bf0c-6cc4b8dcec71")
-		)
-		(pin "32"
-			(uuid "13b3b217-bef7-4a30-8be3-d12ab5255ee6")
-		)
-		(pin "34"
-			(uuid "44bd9b72-d93f-4a85-9583-ec40301c6781")
-		)
-		(pin "35"
-			(uuid "459a4629-206f-4135-97d1-751a743e6a8b")
-		)
-		(pin "30"
-			(uuid "9bcda9b7-75ad-4a3a-926e-b9936fe53c6c")
+		(property "LCSC" "C5143679"
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "63"
-			(uuid "796ad766-f447-476f-bffa-dd7137a3c599")
-		)
-		(pin "39"
-			(uuid "75b97ab9-54f1-477f-a1fe-5bdacd718fa3")
-		)
-		(pin "16"
-			(uuid "e1dff96d-9c9f-480c-87eb-eb5f7a691a42")
-		)
-		(pin "48"
-			(uuid "5334fe3a-f1bb-4357-9b3c-f9bb6bab32f4")
-		)
-		(pin "50"
-			(uuid "fe8ca88d-71fd-4ab8-915e-54caee4803ba")
-		)
-		(pin "54"
-			(uuid "230275b4-e946-42bd-b391-65745f937f99")
-		)
-		(pin "55"
-			(uuid "2e81917f-a19b-4036-90ca-3b3c19faa556")
-		)
-		(pin "53"
-			(uuid "4f4ae053-a7c0-4f7c-ad96-d7a5023edb98")
-		)
-		(pin "7"
-			(uuid "7c77a6ff-970f-4db1-aba2-85b4eefba5d4")
-		)
-		(pin "12"
-			(uuid "5be37fdc-ac4e-4f7a-a546-25d7b7be2151")
-		)
-		(pin "11"
-			(uuid "9cf66965-d95d-4fdc-8360-d81bafa6b8c4")
-		)
-		(pin "13"
-			(uuid "53f43ac9-2c2a-41fe-8ac5-8e7b43ec568c")
-		)
-		(pin "52"
-			(uuid "ae373dbb-367e-407b-a4aa-9191ab2d4d70")
-		)
-		(pin "14"
-			(uuid "39dfb753-9167-41ea-8a5f-72fb9166a74c")
-		)
-		(pin "40"
-			(uuid "4a59590f-c3f7-4de9-a924-9b220b33adb8")
-		)
-		(pin "51"
-			(uuid "4dc6b602-ffed-4fc2-9b2d-57e30a9103f8")
-		)
-		(pin "56"
-			(uuid "d13fc4d4-7aac-4b18-80bb-702de6c0b8d6")
-		)
-		(pin "41"
-			(uuid "4f6ce49c-70c0-4522-9604-fa0747d64728")
-		)
-		(pin "15"
-			(uuid "f79e4dc5-05b4-4ae2-baa5-0277e7b6af45")
-		)
-		(pin "10"
-			(uuid "f2b67efc-97ed-42a6-9ccd-45194293b6a9")
-		)
-		(pin "4"
-			(uuid "8a45f048-ade6-4749-863c-2b9a611b963f")
-		)
-		(pin "9"
-			(uuid "f490f521-8142-4878-bba1-1d659c10ceda")
-		)
-		(pin "2"
-			(uuid "7150c2f4-bb66-429d-b64f-95d42f5de2d1")
-		)
-		(pin "5"
-			(uuid "a8859017-a993-4c22-8cc4-ecba9cc12535")
-		)
-		(pin "3"
-			(uuid "8cd741f7-9b1a-4dda-9a38-7c2adafba739")
+			(uuid "9b1370ec-5b29-4100-b1d1-aac09825d892")
 		)
 		(pin "64"
-			(uuid "56ad9b3b-c97f-4e6b-8e38-36c03268c3f7")
+			(uuid "912b825d-df38-4dfe-a3ad-e873d2121ddf")
 		)
-		(pin "1"
-			(uuid "1ade9a5d-8841-4ecc-884d-3ec339ea2f3d")
+		(pin "62"
+			(uuid "7b60212d-ac9c-4846-97ce-8dd4e676b445")
 		)
-		(pin "49"
-			(uuid "35d0bcab-a720-491b-828b-881c1ea8cbd5")
+		(pin "26"
+			(uuid "9e1c7d2e-f3e0-49fe-8360-4a81d812d2e4")
 		)
-		(pin "8"
-			(uuid "bba6562e-76a9-46e6-870f-f3c833727e35")
-		)
-		(pin "6"
-			(uuid "2405797f-f503-48e9-9257-c3f924de32e0")
-		)
-		(pin "37"
-			(uuid "0bba1102-e3f6-4029-98e7-59a89c45a9b1")
-		)
-		(pin "44"
-			(uuid "bdfe689f-fb8d-4591-b944-6eb338d71e2c")
-		)
-		(pin "42"
-			(uuid "41896650-6cfd-4e21-a4ea-c77956d303d4")
-		)
-		(pin "28"
-			(uuid "8a61530d-ef91-4751-9891-45a6eb72b313")
-		)
-		(pin "45"
-			(uuid "82b594a4-7f0d-439a-b4bc-e9adc0246bc3")
-		)
-		(pin "46"
-			(uuid "904b6467-0336-4189-b2ff-064851d79ace")
-		)
-		(pin "47"
-			(uuid "f286445f-0943-4766-8a62-6b98bb618eab")
-		)
-		(pin "27"
-			(uuid "066272c9-f728-4f6d-9747-427a45e4d023")
-		)
-		(pin "59"
-			(uuid "109623d7-be70-4f8f-896f-48ad0bd6e3ac")
-		)
-		(pin "58"
-			(uuid "271c0278-8424-4533-ad80-5de2dd88eeb1")
-		)
-		(pin "60"
-			(uuid "e03904ca-9843-4250-9dcc-8b60c09caad7")
-		)
-		(pin "61"
-			(uuid "48063844-8198-4f7e-a6bc-a1896ea45ba7")
-		)
-		(pin "22"
-			(uuid "fb585bb7-bb8d-4105-96d2-d7f30ffee65a")
-		)
-		(pin "23"
-			(uuid "fb96a4ec-4d9d-42f9-97d1-c872614161c4")
-		)
-		(pin "17"
-			(uuid "81d5cca0-ec4b-4706-9bcd-f750ff8fc475")
-		)
-		(pin "29"
-			(uuid "5bdfc223-c2f5-4632-a137-2d7ff31e2da2")
-		)
-		(pin "57"
-			(uuid "8fba7336-533c-4eae-b1ef-bd0d9ee57f6a")
+		(pin "25"
+			(uuid "915811ab-c758-47ea-b9b7-6a4cdefaad9b")
 		)
 		(pin "24"
-			(uuid "a18f96e5-c0b9-4bc0-806e-73485a6373c0")
+			(uuid "86794a34-53ac-420e-b5ab-f6936ae7b04b")
+		)
+		(pin "23"
+			(uuid "6870ffab-8a6e-41ee-b486-056233c85d41")
+		)
+		(pin "22"
+			(uuid "548f3184-5ecb-462f-9ace-04d1ee44f87e")
+		)
+		(pin "28"
+			(uuid "eb6a1311-0ad3-4eeb-ac0e-ea322de9306b")
+		)
+		(pin "27"
+			(uuid "5cf3e479-13d2-429f-bf68-b33885b5c862")
+		)
+		(pin "30"
+			(uuid "e7e27767-5451-4c29-9e32-67358ec5b28b")
+		)
+		(pin "29"
+			(uuid "08c898f7-7c32-4baa-afce-597fdd365f01")
+		)
+		(pin "32"
+			(uuid "194277e8-f9b0-4289-a7c5-fae7c8b61269")
+		)
+		(pin "31"
+			(uuid "063632e3-c6e9-4fd8-901e-31eef5f3a8dd")
+		)
+		(pin "34"
+			(uuid "7eb92323-0e21-43b1-a51b-d3f8b4ce4999")
+		)
+		(pin "33"
+			(uuid "2d531619-a61e-4027-a712-b7c07be1dd03")
+		)
+		(pin "37"
+			(uuid "a0bcfb42-802c-4ab0-b126-a5bd08fec13e")
 		)
 		(pin "36"
-			(uuid "5a6c1c11-72e5-4dc0-b789-babf63fb8039")
+			(uuid "860b9282-01de-422b-b392-080215bd44dd")
+		)
+		(pin "35"
+			(uuid "8c5ac10d-3e53-4128-9416-eb4db0562a48")
+		)
+		(pin "44"
+			(uuid "4c4201b4-95bb-4743-bd7f-b812ad67efbd")
+		)
+		(pin "45"
+			(uuid "88652091-84c5-45d3-9a00-a0395991d6e5")
+		)
+		(pin "48"
+			(uuid "4d98c989-3f4d-4d28-8c87-c159b5cda360")
+		)
+		(pin "49"
+			(uuid "db830aed-e6e8-4316-9d6c-25322cd07f34")
+		)
+		(pin "38"
+			(uuid "60de452e-c508-46f4-8dc2-8e9e28e991f5")
+		)
+		(pin "39"
+			(uuid "864b5216-9f45-46c7-9246-4661cf4c0197")
+		)
+		(pin "40"
+			(uuid "95473e3a-bc9f-4c2e-a9ed-0cdb853a2563")
+		)
+		(pin "41"
+			(uuid "d560dfec-37fd-44eb-9b9e-65d675d620dc")
+		)
+		(pin "42"
+			(uuid "a6f85c11-a24f-4062-a1ec-174f6f3bfe02")
 		)
 		(pin "43"
-			(uuid "2fa57d56-c332-4799-816d-4693c62c7304")
+			(uuid "ea433e1c-04f8-4bf3-b270-d1f110500567")
+		)
+		(pin "46"
+			(uuid "5aa3b3e0-7714-4f49-ba12-eeb92f5e2c31")
+		)
+		(pin "47"
+			(uuid "c9b9854a-c17d-43cb-aefc-7ccabaa1e71b")
+		)
+		(pin "50"
+			(uuid "14ef296a-d710-48c7-b7a7-c87a0327f102")
+		)
+		(pin "51"
+			(uuid "59a22177-0e15-4b29-99ad-d47f1c4fb55c")
+		)
+		(pin "52"
+			(uuid "7dab3829-b9b7-4b8b-ab5c-967898609b9e")
+		)
+		(pin "53"
+			(uuid "e5d10b1e-f8ea-4a66-9fbf-f0d8b27ac1db")
+		)
+		(pin "54"
+			(uuid "003d6175-0007-48b7-b03b-96d57dec8487")
+		)
+		(pin "55"
+			(uuid "64524e10-c12b-45f9-8674-db1910af46f9")
+		)
+		(pin "56"
+			(uuid "50783867-727c-4a88-b8a4-a28206e98121")
+		)
+		(pin "57"
+			(uuid "bc833e61-d2ad-4dbb-b308-7a4838dd1eb0")
+		)
+		(pin "60"
+			(uuid "3f1d40ea-b51a-4767-acd6-0b4e1638bf95")
+		)
+		(pin "61"
+			(uuid "0231afcc-6490-41fa-a6c8-d76cfa2614e7")
+		)
+		(pin "58"
+			(uuid "cb2fd250-324b-419b-a4c2-50e5c419bbe9")
+		)
+		(pin "59"
+			(uuid "53798506-dff0-4a2e-b1a6-8b959a4d94d2")
+		)
+		(pin "1"
+			(uuid "6a67d592-5818-4e97-8851-02e72ff2d8b8")
 		)
 		(pin "21"
-			(uuid "fc5d71dc-a3f3-4c5f-b8cd-05786542b9cc")
+			(uuid "e4adbd30-ecbe-4dd4-866b-034e48bebfe8")
 		)
 		(pin "20"
-			(uuid "711eba0a-4d9f-4511-aea8-5c2605508519")
+			(uuid "9225a761-88f9-4af1-acc9-08c87c610c6d")
 		)
 		(pin "19"
-			(uuid "1c57be84-f12b-4957-8ad3-e95293dae612")
+			(uuid "c2bc5065-1236-444c-bb97-f7b39803fbe8")
 		)
 		(pin "18"
-			(uuid "18b02039-f858-4551-84b5-fc574414f63b")
+			(uuid "112aa0e6-d913-49f8-b95c-218889d81f51")
+		)
+		(pin "17"
+			(uuid "1670148a-a587-4765-ac2e-1d383668f693")
+		)
+		(pin "16"
+			(uuid "66797f97-c1ac-4462-ac01-16f1cf8e721d")
+		)
+		(pin "15"
+			(uuid "cf44bfe0-7fcf-4f85-8bb6-ff86609fd53c")
+		)
+		(pin "7"
+			(uuid "8ed86b2a-afa9-4677-851e-c150afff10e8")
+		)
+		(pin "8"
+			(uuid "8c4aaa0a-a2f5-44df-b6e0-e7f80cebe891")
+		)
+		(pin "9"
+			(uuid "ce1a838f-9bc7-4c39-a289-a08362f89d17")
+		)
+		(pin "10"
+			(uuid "74d615d2-2321-414b-8aaf-f1d2a559b8cc")
+		)
+		(pin "14"
+			(uuid "5b3145e1-d659-404b-adf9-7b853882a6eb")
+		)
+		(pin "13"
+			(uuid "1374ef63-e6ce-4518-8677-8e24ae8718a4")
+		)
+		(pin "12"
+			(uuid "1af6d0ad-9462-458f-bc29-805046160593")
+		)
+		(pin "11"
+			(uuid "1cedf14e-482d-4057-9299-db2530e6a636")
+		)
+		(pin "2"
+			(uuid "f7e571a0-6036-4e74-8f77-6c378344d086")
+		)
+		(pin "3"
+			(uuid "ba03fa86-697c-470c-a215-f898ec222795")
+		)
+		(pin "4"
+			(uuid "64d3fcd8-64c1-49a7-8498-2cf8e91769e1")
+		)
+		(pin "5"
+			(uuid "b1d537ef-f096-451d-bb5c-da32de013033")
+		)
+		(pin "6"
+			(uuid "cc3b7748-f8ac-4ddf-a2fe-3fab2fd535d4")
 		)
 		(instances
 			(project "hair-electrolysis-machine"
@@ -14421,7 +14431,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16684"
+		(property "LCSC" "C431536"
 			(at 255.27 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15130,7 +15140,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "BTN"
 			(at 158.75 120.396 0)
 			(hide yes)
 			(show_name no)
@@ -15266,7 +15276,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C14663"
 			(at 209.55 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -15919,15 +15929,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 49.53 44.704 90)
+		(property "Value" "100K1%"
+			(at 49.53 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -15963,7 +15972,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14675"
+		(property "LCSC" "C25803"
 			(at 49.53 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18520,7 +18529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 224.79 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -18543,6 +18552,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2718488"
 			(at 224.79 151.13 0)
 			(hide yes)
 			(show_name no)
