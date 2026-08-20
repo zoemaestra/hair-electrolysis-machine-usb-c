@@ -1758,8 +1758,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW3"
+				(at 7.112 5.334 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1769,7 +1769,7 @@
 				)
 			)
 			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+				(at 0 5.4032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1778,7 +1778,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1801,6 +1801,17 @@
 				)
 			)
 			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C131374"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1928,6 +1939,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2992,6 +3021,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 54.61) (xy 110.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee16430b-2b74-4202-a4ae-5e0f9824851a")
+	)
+	(wire
+		(pts
 			(xy 125.73 30.48) (xy 128.27 30.48)
 		)
 		(stroke
@@ -3316,10 +3355,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "212f8686-a9fd-4c56-ad73-6cc43a1e9ccc")
 		(property "Reference" "D5"
-			(at 104.14 48.26 90)
+			(at 104.394 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3330,7 +3368,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 104.14 50.8 90)
+			(at 106.426 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4125,6 +4163,9 @@
 		(pin "3"
 			(uuid "ebc4cd09-4744-48c0-b314-16afdbb37985")
 		)
+		(pin "4"
+			(uuid "d03366f2-a1fa-4e8e-88e3-75c47045f48c")
+		)
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/4364703c-5ced-4ab9-82a6-552a97df682c"
@@ -4649,6 +4690,83 @@
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/4364703c-5ced-4ab9-82a6-552a97df682c"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac4c6d42-fa37-4821-b0f8-ee27a71099ce")
+		(property "Reference" "#PWR032"
+			(at 110.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f877efb-9f8c-41d9-b1fd-f275050937c0")
+		)
+		(instances
+			(project "hair-electrolysis-machine"
+				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/4364703c-5ced-4ab9-82a6-552a97df682c"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
