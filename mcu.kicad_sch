@@ -10661,7 +10661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 195.2752 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10694,7 +10694,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C1779"
 			(at 194.31 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10935,7 +10935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10968,7 +10968,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C1779"
 			(at 154.94 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13687,7 +13687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.3052 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13720,7 +13720,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C1779"
 			(at 180.34 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14500,7 +14500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.6052 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14533,7 +14533,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C1779"
 			(at 167.64 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16692,7 +16692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16725,7 +16725,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C1779"
 			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
