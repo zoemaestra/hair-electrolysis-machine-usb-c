@@ -2315,8 +2315,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
+			(property "Reference" "SW4"
+				(at 0 9.2245 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2326,7 +2326,7 @@
 				)
 			)
 			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
+				(at 0 6.8002 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2335,7 +2335,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 				(at -3.81 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2358,6 +2358,17 @@
 				)
 			)
 			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2991196"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2663,6 +2674,24 @@
 						)
 					)
 					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6182,6 +6211,12 @@
 		(uuid "1585c848-0e22-43c5-ad68-6fe029b8c29b")
 	)
 	(junction
+		(at 247.65 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa570ea-7300-48bb-8fe7-7d58a67ca0c1")
+	)
+	(junction
 		(at 266.7 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6242,10 +6277,22 @@
 		(uuid "45f6ec10-e4e6-4dae-b646-a07076a9ecb2")
 	)
 	(junction
+		(at 247.65 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fe3a5ed-f7e9-4f51-ab1c-3c0bff1c738b")
+	)
+	(junction
 		(at 176.53 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "533e95a3-ba88-4596-8380-23c0ed42d320")
+	)
+	(junction
+		(at 247.65 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57f1177d-cca5-4a5e-97ea-cffe71596ed9")
 	)
 	(junction
 		(at 167.64 73.66)
@@ -6264,6 +6311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85d60302-00d3-41d4-81cf-fa6e4980d1e5")
+	)
+	(junction
+		(at 247.65 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89ddbaaf-ed60-401c-9369-cb071f7d51b4")
 	)
 	(junction
 		(at 154.94 60.96)
@@ -6394,20 +6447,8 @@
 		(uuid "1cb370a4-856d-4714-9721-d7bf0f2e8098")
 	)
 	(no_connect
-		(at 250.19 33.02)
-		(uuid "27bf3fbf-bf55-44c2-ad6e-54921ca96c87")
-	)
-	(no_connect
-		(at 250.19 30.48)
-		(uuid "5134737e-ab48-40d3-80f1-15c817621f11")
-	)
-	(no_connect
 		(at 195.58 96.52)
 		(uuid "78b4d1d6-9f44-4859-ab64-a2059e0eeeaa")
-	)
-	(no_connect
-		(at 250.19 53.34)
-		(uuid "8ea64f12-5b80-4447-bdf2-5013fe852790")
 	)
 	(no_connect
 		(at 250.19 58.42)
@@ -6416,10 +6457,6 @@
 	(no_connect
 		(at 195.58 101.6)
 		(uuid "bdfefbc3-2bc1-4679-b79a-543295088050")
-	)
-	(no_connect
-		(at 250.19 55.88)
-		(uuid "dcd6c764-0e32-4ec0-acf2-f9a87def309e")
 	)
 	(wire
 		(pts
@@ -6603,6 +6640,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 55.88) (xy 250.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b22642-7189-48c0-abfe-f2dfbf96f299")
+	)
+	(wire
+		(pts
 			(xy 195.58 91.44) (xy 196.85 91.44)
 		)
 		(stroke
@@ -6620,6 +6667,16 @@
 			(type default)
 		)
 		(uuid "127f2402-b4e6-4bab-92c2-e0e3ba2273a0")
+	)
+	(wire
+		(pts
+			(xy 247.65 33.02) (xy 250.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15542071-e7dd-4f50-9462-2a410702456f")
 	)
 	(wire
 		(pts
@@ -6673,7 +6730,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 38.1) (xy 250.19 38.1)
+			(xy 240.03 38.1) (xy 247.65 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7003,6 +7060,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 30.48) (xy 247.65 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e15bae-6495-4aba-8bcf-99b61f60d21c")
+	)
+	(wire
+		(pts
 			(xy 180.34 78.74) (xy 180.34 71.12)
 		)
 		(stroke
@@ -7193,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 60.96) (xy 250.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62515a32-0d38-4f37-b01d-9c67a3e7ea14")
+	)
+	(wire
+		(pts
 			(xy 266.7 142.24) (xy 266.7 143.51)
 		)
 		(stroke
@@ -7283,7 +7360,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 60.96) (xy 250.19 60.96)
+			(xy 223.52 60.96) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7423,6 +7500,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 33.02) (xy 247.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844d088d-6b78-47f1-9a69-02d7948b92e3")
+	)
+	(wire
+		(pts
 			(xy 163.83 115.57) (xy 172.72 115.57)
 		)
 		(stroke
@@ -7490,6 +7577,16 @@
 			(type default)
 		)
 		(uuid "8af7dcaf-be6f-46ba-ab7a-bfa3d6227091")
+	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 250.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd8d217-089a-4b94-b836-6d55b9efbbca")
 	)
 	(wire
 		(pts
@@ -7620,6 +7717,16 @@
 			(type default)
 		)
 		(uuid "9a347b4d-45e7-4ca9-a4c3-f935636cdad6")
+	)
+	(wire
+		(pts
+			(xy 250.19 53.34) (xy 247.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d357d55-6f5c-483a-8796-7653ff1facf3")
 	)
 	(wire
 		(pts
@@ -7780,6 +7887,16 @@
 			(type default)
 		)
 		(uuid "accf7fe8-1bf6-4101-93f7-4ad002e8057e")
+	)
+	(wire
+		(pts
+			(xy 247.65 53.34) (xy 247.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad99d807-ffed-414c-bd22-651d9cbb71f0")
 	)
 	(wire
 		(pts
@@ -7980,6 +8097,16 @@
 			(type default)
 		)
 		(uuid "c6bca134-221e-46cd-b8bc-c02516efda12")
+	)
+	(wire
+		(pts
+			(xy 247.65 55.88) (xy 247.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b0571b-3b3f-4920-80e0-bc6902b90830")
 	)
 	(wire
 		(pts
@@ -8200,6 +8327,16 @@
 			(type default)
 		)
 		(uuid "ea67cb1a-c6cf-4852-984a-338dd33e571d")
+	)
+	(wire
+		(pts
+			(xy 250.19 30.48) (xy 247.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaeed915-e995-4f0f-a6ef-08bb6c506a6b")
 	)
 	(wire
 		(pts
@@ -9072,7 +9209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "021cb05d-4b04-48f3-9374-2b636099f0d0")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 161.29 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +9327,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9208,7 +9345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b65e47-9359-4586-a83d-f3e3695089d7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR051"
 			(at 234.95 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9268,7 +9405,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR010")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05120913-67cf-40c8-987d-85fb83cb45de")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR022"
 			(at 71.12 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9345,7 +9482,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR0132")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9362,7 +9499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09dbdf2a-54aa-4eb5-8cd5-729f8055ff25")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 191.77 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9435,7 +9572,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9453,7 +9590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a1fb5d1-4de0-4006-94ea-c67586e93e18")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR018"
 			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9513,7 +9650,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR077")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9531,7 +9668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c9a62ba-e1b2-4307-8bc6-b6c81599d60f")
-		(property "Reference" "SW8"
+		(property "Reference" "SW2"
 			(at 158.75 97.6517 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9605,7 +9742,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "SW8")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9622,7 +9759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e1dfbf9-e082-416f-96ce-fd0945108db1")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR033"
 			(at 153.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9682,7 +9819,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR066")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9699,7 +9836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1066deba-9015-4051-a658-c7e8fe18e026")
-		(property "Reference" "R50"
+		(property "Reference" "R5"
 			(at 88.9 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9774,7 +9911,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R50")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9792,7 +9929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16d17ef0-ee37-4bb4-87ed-1f9f64e1a68e")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 128.397 38.1578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +10010,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9890,7 +10027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1845dc69-5268-4577-aca4-1c64f0332dfe")
-		(property "Reference" "R40"
+		(property "Reference" "R12"
 			(at 190.5 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +10102,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R40")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9983,7 +10120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b47a2c0-6104-40b8-aa30-260d5e26e6d8")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR019"
 			(at 49.53 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10043,7 +10180,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR079")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10061,7 +10198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1def82ba-a58b-4357-bbce-00bef7ef3e12")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR034"
 			(at 161.29 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +10258,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR065")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10230,7 +10367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f57f547-6988-46f8-b3d5-df9d3953aedc")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 191.77 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10303,7 +10440,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10321,7 +10458,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2158e170-65a8-467f-8c02-7f4f40510666")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 249.555 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10389,7 +10526,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10406,7 +10543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2387b7b8-4687-4263-a221-f0a1d15d8cd6")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR024"
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10466,7 +10603,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR0131")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10483,7 +10620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29dd1cb9-5d8f-4172-be7c-c3555fdf67e4")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR046"
 			(at 217.17 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10544,7 +10681,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR068")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10561,7 +10698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b950880-0480-410d-9ce5-6a3bb6c447c6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR056"
 			(at 266.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10621,7 +10758,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR059")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10639,7 +10776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2be153da-a947-4499-ae7f-91efae49567f")
-		(property "Reference" "C43"
+		(property "Reference" "C14"
 			(at 197.231 66.0978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10714,7 +10851,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C43")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10731,7 +10868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d6d1135-c56d-49cb-b347-f35313ef39ea")
-		(property "Reference" "R34"
+		(property "Reference" "R3"
 			(at 51.054 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10805,7 +10942,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R34")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10822,7 +10959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e61af1a-3b6f-46e4-aa70-d7d3d558eac2")
-		(property "Reference" "R37"
+		(property "Reference" "R18"
 			(at 217.17 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10895,7 +11032,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R37")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10913,7 +11050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3033f791-1f59-45b6-a822-5b95945cee10")
-		(property "Reference" "C29"
+		(property "Reference" "C9"
 			(at 157.861 66.0978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10988,7 +11125,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C29")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11006,7 +11143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "346d353b-8bc1-4ae8-b05d-284bc008e142")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR035"
 			(at 177.8 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11066,7 +11203,85 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR025")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34cd3c4d-e55a-45a6-b674-61b4b9aab3f5")
+		(property "Reference" "#PWR049"
+			(at 224.79 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 138.7531 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "175726b5-083d-4e28-8bf9-c2acdab6a47d")
+		)
+		(instances
+			(project "hair-electrolysis-machine"
+				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11083,7 +11298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "368a88ad-50dd-41d0-bbba-5e13923051ec")
-		(property "Reference" "R46"
+		(property "Reference" "R21"
 			(at 271.78 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11158,7 +11373,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R46")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11176,7 +11391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "424d50a4-06b1-4bcb-a02a-a798711bace7")
-		(property "Reference" "D15"
+		(property "Reference" "D6"
 			(at 148.9075 55.5455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,7 +11464,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D15")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11266,7 +11481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43e7d69f-b52c-4189-ae9f-1eeaa37ae210")
-		(property "Reference" "C37"
+		(property "Reference" "C11"
 			(at 170.688 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,7 +11556,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C37")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "469bbe95-3f32-4d60-a551-c5c91bb57d54")
-		(property "Reference" "SW7"
+		(property "Reference" "SW5"
 			(at 226.06 101.4617 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11432,7 +11647,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "SW7")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -11449,7 +11664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b44105d-b797-4f40-ae65-8f5e8fd68065")
-		(property "Reference" "C28"
+		(property "Reference" "C4"
 			(at 24.13 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +11739,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C28")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11541,7 +11756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b778a65-7606-4d41-8569-3c9b7a71fe92")
-		(property "Reference" "R44"
+		(property "Reference" "R16"
 			(at 218.44 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +11831,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R44")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11633,7 +11848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e574492-018a-4fe8-adf4-c17eea0b8142")
-		(property "Reference" "R38"
+		(property "Reference" "R7"
 			(at 107.95 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11706,7 +11921,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R38")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11814,7 +12029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ff029f-232f-49d2-ba81-9f277350b749")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR026"
 			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11874,7 +12089,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR085")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11891,7 +12106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5224a1c6-d3e5-4825-8526-843ec3db3440")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 255.27 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +12181,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11983,7 +12198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52b6b059-0b54-45d6-9bb3-49fd42f6f348")
-		(property "Reference" "R41"
+		(property "Reference" "R13"
 			(at 190.5 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12058,7 +12273,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R41")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12075,7 +12290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52d2f028-adc9-4d07-adae-ca92634b52cb")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 191.262 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +12363,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12166,7 +12381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53da1764-4b29-4b27-b253-5f8ceae3071e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR031"
 			(at 152.4 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -12226,7 +12441,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR09")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -12243,7 +12458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5401f2b3-9987-4d53-8ae9-a950c03fa358")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR036"
 			(at 180.34 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12304,7 +12519,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR087")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12321,7 +12536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5500c793-943b-4169-ac38-fa01b243b159")
-		(property "Reference" "C48"
+		(property "Reference" "C6"
 			(at 43.18 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12396,7 +12611,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C48")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12413,7 +12628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55b2a958-183c-4698-81b1-51ae14ff31e8")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR045"
 			(at 213.36 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12474,7 +12689,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR091")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -12491,7 +12706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "565f9632-2900-4606-be28-e9d42cd2c1d8")
-		(property "Reference" "R45"
+		(property "Reference" "R17"
 			(at 218.44 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12566,7 +12781,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R45")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12584,7 +12799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58d589fc-ad42-40e3-a0ac-99d5778dd03b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR017"
 			(at 49.53 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12644,7 +12859,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR078")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ab8fc70-274e-479e-8f28-33716d976d4e")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR016"
 			(at 39.37 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12721,7 +12936,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR0130")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12739,7 +12954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc8d50e-a5a9-4d85-9f25-9325fb2cd073")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR027"
 			(at 125.73 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12799,7 +13014,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR089")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12817,7 +13032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f46f5d0-392b-4c34-97af-03797677a72b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR042"
 			(at 201.93 127 0)
 			(hide yes)
 			(show_name no)
@@ -12878,7 +13093,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR011")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12895,7 +13110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6031f019-9fe0-41e1-bd29-49afaf122b87")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR054"
 			(at 259.08 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12955,7 +13170,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR080")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12972,7 +13187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60ac33d7-bd3d-49cf-9641-51e4c7052bcc")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR041"
 			(at 208.28 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13033,7 +13248,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR090")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13050,7 +13265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "619a6802-e583-4b07-b50b-38aefe827750")
-		(property "Reference" "C50"
+		(property "Reference" "C5"
 			(at 43.18 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13125,7 +13340,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C50")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13143,7 +13358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622e9586-4be6-4818-adfa-3deecbea7ba0")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR015"
 			(at 29.21 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13203,7 +13418,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR075")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13221,7 +13436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ece6f1-9d88-4534-9021-8d2e9715550c")
-		(property "Reference" "D16"
+		(property "Reference" "D7"
 			(at 161.6075 55.5455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13294,7 +13509,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D16")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13311,7 +13526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67daa59c-2099-4b99-81a3-697c628abaf5")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR043"
 			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13372,7 +13587,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR067")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13390,7 +13605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9a1f0e-b81c-42be-babf-81cca8fc77a8")
-		(property "Reference" "D21"
+		(property "Reference" "D5"
 			(at 139.7 25.0655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13463,7 +13678,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D21")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13480,7 +13695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6faacd37-5d3e-4989-bbd0-b8fb536b2b9f")
-		(property "Reference" "R48"
+		(property "Reference" "R23"
 			(at 271.78 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13555,7 +13770,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R48")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -13572,7 +13787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73039b35-32f5-4956-9a9c-409db17aa908")
-		(property "Reference" "R43"
+		(property "Reference" "R9"
 			(at 127.508 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13647,7 +13862,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R43")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13665,7 +13880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755cbbb8-efe2-41b9-90a6-60e9f3f9ad2d")
-		(property "Reference" "C42"
+		(property "Reference" "C13"
 			(at 183.261 66.0978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13740,7 +13955,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C42")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13757,7 +13972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "763b4764-5a38-407f-9655-73914e632de9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR058"
 			(at 266.7 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13817,7 +14032,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR050")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -13835,7 +14050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7955873f-4714-45f0-9caf-1fe40039309b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR038"
 			(at 189.23 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13895,7 +14110,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR012")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13913,7 +14128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a7d40a7-c130-4c80-a2d2-d100bc3ec27e")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 73.2633 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14175,7 +14390,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14193,7 +14408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "835ab5c0-524e-43e1-80da-304985f5ce4c")
-		(property "Reference" "C49"
+		(property "Reference" "C7"
 			(at 67.31 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14268,7 +14483,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C49")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14285,7 +14500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83e932f1-7609-46a1-82ee-6609421b98b0")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 191.77 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14358,7 +14573,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14376,7 +14591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87102e2e-2de0-49c5-9e4e-75a43144208a")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 252.73 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14460,7 +14675,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -14478,7 +14693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e73ccb-c18f-40e6-a004-69f65b3c1dc5")
-		(property "Reference" "C30"
+		(property "Reference" "C10"
 			(at 170.561 66.0978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14553,7 +14768,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C30")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -14570,7 +14785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a377443-f665-4f1d-a9c6-6deb1a647938")
-		(property "Reference" "R39"
+		(property "Reference" "R8"
 			(at 113.03 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14643,7 +14858,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R39")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14661,7 +14876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f71c9be-04b3-4a98-b7b8-a612cbf269e6")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR023"
 			(at 71.12 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14721,7 +14936,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR036")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14739,7 +14954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f9dd4e6-a854-4215-8765-c95d91e64d57")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 64.77 30.1455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14830,7 +15045,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "U8")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -14927,6 +15142,9 @@
 		(pin "S2"
 			(uuid "a0666b96-6bff-4b9d-805e-84b05a019ee3")
 		)
+		(pin "MP"
+			(uuid "959b2fdc-b122-4f24-9f69-dc522630a3d9")
+		)
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
@@ -14947,7 +15165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "945c9d53-e657-4f8d-9a7b-c4888217a131")
-		(property "Reference" "C45"
+		(property "Reference" "C12"
 			(at 173.99 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15022,7 +15240,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C45")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15039,7 +15257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95b68f02-cb2b-411c-a689-6564b472cf85")
-		(property "Reference" "R42"
+		(property "Reference" "R19"
 			(at 246.38 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15112,7 +15330,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R42")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -15130,7 +15348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "961126d2-5caf-4205-a1f2-741b3b05df4f")
-		(property "Reference" "SW9"
+		(property "Reference" "SW3"
 			(at 158.75 117.9717 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15204,7 +15422,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "SW9")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -15221,7 +15439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96a8c70d-caa7-40a7-b4a7-5c054b52795e")
-		(property "Reference" "C39"
+		(property "Reference" "C16"
 			(at 207.264 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +15514,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C39")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15314,7 +15532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97bd7dd1-0878-4191-b9cd-c87dad5fa5eb")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR020"
 			(at 49.53 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15374,7 +15592,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR073")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15392,7 +15610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a28a203-4083-490a-a0ae-28207cbf7221")
-		(property "Reference" "D20"
+		(property "Reference" "D15"
 			(at 225.552 66.0978 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15467,7 +15685,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D20")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -15484,7 +15702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e7e59a9-cc88-47bd-91f0-9ec97c129dec")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR050"
 			(at 234.95 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15545,7 +15763,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR064")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15562,7 +15780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a02bc113-9fa4-4630-acde-38c704f88c57")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 29.21 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15622,7 +15840,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15640,7 +15858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b4804b-1bad-443c-b0fe-351de3605d4e")
-		(property "Reference" "D18"
+		(property "Reference" "D12"
 			(at 187.0075 55.5455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15713,7 +15931,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D18")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -15732,7 +15950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a22aedd7-03cf-4dfb-9f2d-b02ddf67d93a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR021"
 			(at 60.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15792,7 +16010,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR074")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15810,7 +16028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a358b119-b09d-4d38-b697-3aacf4118be6")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 100.33 30.1455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15901,7 +16119,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15918,7 +16136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a48aba13-5af8-4561-8c99-c5f5f3ff71c1")
-		(property "Reference" "R35"
+		(property "Reference" "R4"
 			(at 51.054 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,7 +16210,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R35")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16009,7 +16227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a50b9260-9ef7-43a5-b71c-0bbcbc7fae7b")
-		(property "Reference" "R33"
+		(property "Reference" "R11"
 			(at 144.78 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16082,7 +16300,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R33")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16100,7 +16318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67f1eaa-359a-4ebd-9c34-8a4fcc1f90be")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR025"
 			(at 83.82 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16160,7 +16378,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR072")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16177,7 +16395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b12ae652-dcfe-4a4c-9ac0-72cdbde0ce08")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR052"
 			(at 261.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16238,7 +16456,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR054")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16256,7 +16474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12c6dc6-d999-43a0-8832-15627254ecf6")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR030"
 			(at 146.05 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16316,7 +16534,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR092")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16334,7 +16552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a0dc2c-d228-404a-a993-6205f554466e")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR028"
 			(at 129.54 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16394,7 +16612,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR071")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16411,7 +16629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b297e6d5-a2ea-40a5-a8ba-8849c7c656e1")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR037"
 			(at 185.42 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16472,7 +16690,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR088")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16489,7 +16707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b504ad4a-4d01-4163-9f3a-aba6a92b0207")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR039"
 			(at 201.93 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16550,7 +16768,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR013")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16568,7 +16786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6392ac8-5c86-4044-ab4a-aada7829b311")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 252.73 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16652,7 +16870,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -16670,7 +16888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba97cf48-b956-4862-a414-706fa4fd8c8d")
-		(property "Reference" "C44"
+		(property "Reference" "C17"
 			(at 213.741 66.0978 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16745,7 +16963,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C44")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16763,7 +16981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf34342-e6d1-45da-a2c4-db713dae84e8")
-		(property "Reference" "D19"
+		(property "Reference" "D13"
 			(at 202.2475 55.5455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16836,7 +17054,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D19")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -16853,7 +17071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcfef9e7-731d-4698-bdf1-5b11547bb172")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR032"
 			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16913,7 +17131,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR0129")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16930,7 +17148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd51e27b-fb34-4af9-a836-541e826a294b")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 255.27 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17005,7 +17223,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -17022,7 +17240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdc70095-3a17-43a1-9148-c011c481bbef")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR059"
 			(at 266.7 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17083,7 +17301,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR051")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -17193,7 +17411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be5f3a6a-1c4f-4adc-b610-177208e2e469")
-		(property "Reference" "R49"
+		(property "Reference" "R22"
 			(at 271.78 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17268,7 +17486,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R49")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -17285,7 +17503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c290cc45-323a-43e6-8156-4fa3c53a2f1b")
-		(property "Reference" "C47"
+		(property "Reference" "C8"
 			(at 77.47 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17360,7 +17578,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C47")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17377,7 +17595,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6ead043-9abd-4ba2-9035-05ecb4631437")
-		(property "Reference" "R47"
+		(property "Reference" "R20"
 			(at 271.78 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17452,7 +17670,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R47")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -17470,7 +17688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbf819e7-ec49-4a33-9d53-a4460bbaea4f")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR048"
 			(at 223.52 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17530,7 +17748,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR086")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17547,7 +17765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd126e39-6213-48d3-bf11-96e431e3ab59")
-		(property "Reference" "C46"
+		(property "Reference" "C15"
 			(at 201.93 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17622,7 +17840,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "C46")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17639,7 +17857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6292944-060a-4846-b4cc-8e7e03636f4c")
-		(property "Reference" "R36"
+		(property "Reference" "R6"
 			(at 88.9 44.958 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17714,7 +17932,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R36")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17732,7 +17950,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d809c165-28c5-4c1a-b826-39f475ae4a01")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 139.065 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17800,7 +18018,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -17817,7 +18035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8e3cd11-9f93-4c7b-b437-91f58df887a3")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 261.62 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17878,7 +18096,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17896,7 +18114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9cae216-e431-47cb-9bdc-c818625cfbeb")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR044"
 			(at 210.82 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17956,7 +18174,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR084")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17974,7 +18192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8d6ce5-9136-48dd-9ab3-cd321ecf33a4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR055"
 			(at 262.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18034,7 +18252,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR05")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18051,7 +18269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4fb546e-0fbe-4c2f-afa6-9b09cec83d52")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR040"
 			(at 207.01 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18111,7 +18329,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR07")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18128,7 +18346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5febc35-31f0-4c94-be3d-f887269c3c71")
-		(property "Reference" "R51"
+		(property "Reference" "R10"
 			(at 144.78 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18201,7 +18419,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R51")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -18218,7 +18436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6a776b8-0ba8-47b2-adf1-b5f76e3e20ee")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 183.3881 98.3672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18302,7 +18520,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -18320,7 +18538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead0f31e-b0cf-4a90-9863-d9609c7606cd")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 29.845 36.8878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18413,7 +18631,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "U8")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -18431,7 +18649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f03be916-53f0-49fd-a34f-efd5342faf10")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR029"
 			(at 139.7 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18491,7 +18709,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR076")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18509,7 +18727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f14e7347-211a-4487-a61d-1c76a5790efa")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 224.155 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18588,7 +18806,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -18606,7 +18824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1af16da-6c0b-498b-9c2a-79750392203a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR047"
 			(at 217.17 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18666,7 +18884,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR08")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -18684,7 +18902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6951a4a-3857-4810-abd6-08c8a8f5b5fe")
-		(property "Reference" "D17"
+		(property "Reference" "D8"
 			(at 174.3075 55.5455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18757,7 +18975,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "D17")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -18774,7 +18992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb75c6d2-af8f-42bd-8c69-f483d8bbc50a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 266.7 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18835,7 +19053,7 @@
 		(instances
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
