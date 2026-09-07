@@ -105,6 +105,93 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Wire routing hole\nin case you're\ndirectly soldering battery\nto the rear :)"
+		(exclude_from_sim no)
+		(at 21.336 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58cade30-8fa7-4c5e-8bef-252700aa654d")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1736d93f-23d1-4459-a0c9-ff9ee8a8248a")
+		(property "Reference" "H5"
+			(at 25.4 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 25.4 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 22.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "hair-electrolysis-machine"
+				(path "/724ce5ca-e5bf-4553-b755-84be7690a548"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 22.86 31.75 0)
@@ -410,7 +497,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 35.56)
+		(at 54.61 26.67)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -426,7 +513,7 @@
 		)
 		(uuid "4364703c-5ced-4ab9-82a6-552a97df682c")
 		(property "Sheetname" "Power"
-			(at 228.6 34.8484 0)
+			(at 54.61 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -437,7 +524,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 228.6 51.3846 0)
+			(at 54.61 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -456,7 +543,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 68.58)
+		(at 54.61 59.69)
 		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -472,7 +559,7 @@
 		)
 		(uuid "cdc4525c-ab23-4870-9f65-db2094403a54")
 		(property "Sheetname" "Mcu"
-			(at 228.6 67.8684 0)
+			(at 54.61 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -483,7 +570,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 228.6 86.9446 0)
+			(at 54.61 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
