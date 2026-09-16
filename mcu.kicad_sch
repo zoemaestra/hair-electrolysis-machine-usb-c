@@ -6960,16 +6960,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 162.56) (xy 43.18 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a107370-9074-4450-b3c4-e5481e23d02b")
-	)
-	(wire
-		(pts
 			(xy 266.7 146.05) (xy 266.7 143.51)
 		)
 		(stroke
@@ -8568,16 +8558,6 @@
 		)
 		(uuid "2596aef9-0bbe-4428-abdf-99764ccbf5d4")
 	)
-	(label "BUZZER2"
-		(at 149.86 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "294db7a4-a6f7-4209-986a-b356725c3f27")
-	)
 	(label "PA15"
 		(at 129.54 147.32 0)
 		(effects
@@ -8667,16 +8647,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f326aaf-cf60-4fe0-8d19-b9f184cd2d78")
-	)
-	(label "BUZZER2"
-		(at 27.94 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "618fc6e7-c511-427d-9905-6a27d916fa05")
 	)
 	(label "USB_SENSE"
 		(at 250.19 116.84 0)
@@ -16964,6 +16934,83 @@
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "baa53cf2-cb79-4f61-8013-7adc0b707403")
+		(property "Reference" "#PWR060"
+			(at 149.86 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 195.9031 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb637f12-f9aa-47d8-af6d-207fba7adf00")
+		)
+		(instances
+			(project "hair-electrolysis-machine"
+				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
