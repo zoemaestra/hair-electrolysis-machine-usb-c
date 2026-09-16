@@ -1,0 +1,44 @@
+[package]
+edition = "2024"
+name = "hair-electrolysis-machine-stm32g0b1"
+version = "0.1.0"
+authors = ["n3tcat <webmaster@scd31.com>"]
+license = "MIT"
+
+[dependencies]
+embassy-sync = { version = "0.7.2", features = ["defmt"] }
+embassy-executor = { version = "0.9.1", features = ["arch-cortex-m", "executor-thread", "defmt"] }
+embassy-time = { version = "0.5.0", features = ["defmt", "defmt-timestamp-uptime"] }
+embassy-futures = "0.1.2"
+embassy-stm32 = { version = "0.6.0", features = ["defmt", "exti", "stm32g0b1rb", "time-driver-tim2", "unstable-pac"] }
+
+defmt = "1.0"
+defmt-rtt = "1.1"
+cortex-m = { version = "0.7.7", features = ["inline-asm", "critical-section-single-core"] }
+cortex-m-rt = "0.7.5"
+
+embedded-hal-async = "1.0.0"
+portable-atomic = { version = "1.15", features = ["critical-section"] }
+arrayvec = { version = "0.7.6", default-features = false }
+embedded-graphics = "0.8.2"
+embedded-text = "0.7.3"
+embedded-icon = { version = "0.0.1", features = ["18px", "iconoir"] }
+ssd1306 = { version = "0.10.0", features = ["async"] }
+num-traits = { version = "0.2.19", default-features = false }
+micromath = "2.1.0"
+
+embedded-storage = "0.3.1"
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+debug = 0
+strip = "symbols"
+incremental = false
+
+[[bin]]
+name = "hair-electrolysis-machine-stm32g0b1"
+test = false
+bench = false
