@@ -10,6 +10,7 @@ Thumbs.db
 # KiCad specific
 fp-info-cache
 
+
 # Backups and Autosaves
 *-backups/
 *.bak
@@ -22,3 +23,6 @@ fp-info-cache
 # Lock files
 ~*.lck
 *.lck
+
+firmware/target/
+production/
