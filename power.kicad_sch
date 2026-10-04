@@ -2615,16 +2615,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Charge current 370mA"
-		(exclude_from_sim no)
-		(at 58.674 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "644af587-46f2-44f5-a95e-9128083aa665")
-	)
 	(text "Battery used for op-amp for smoothness"
 		(exclude_from_sim no)
 		(at 112.776 18.288 0)
@@ -2636,7 +2626,7 @@
 		(uuid "7f9e8ba1-0f29-4145-9695-8eb587ef751b")
 	)
 	(junction
-		(at 58.42 31.75)
+		(at 58.42 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d706880-6118-4d90-bca4-8669f4d69a17")
@@ -2721,7 +2711,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 41.91) (xy 74.93 44.45)
+			(xy 74.93 25.4) (xy 74.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0516c1b6-303d-4707-8dd4-a74e2eb77646")
+	)
+	(wire
+		(pts
+			(xy 74.93 35.56) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2741,7 +2741,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 31.75) (xy 71.12 31.75)
+			(xy 74.93 25.4) (xy 71.12 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2761,7 +2761,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 31.75) (xy 58.42 31.75)
+			(xy 58.42 25.4) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eac33d-774e-4873-8126-7939542b2639")
+	)
+	(wire
+		(pts
+			(xy 53.34 25.4) (xy 58.42 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2851,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 40.64 31.75)
+			(xy 48.26 25.4) (xy 40.64 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +2921,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 52.07)
+			(xy 40.64 25.4) (xy 40.64 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2941,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 29.21) (xy 58.42 31.75)
+			(xy 58.42 22.86) (xy 58.42 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2961,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 58.42 31.75)
+			(xy 63.5 25.4) (xy 58.42 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3001,16 +3011,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 31.75) (xy 58.42 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f6e451-6150-4785-87da-01ba4e936ba3")
-	)
-	(wire
-		(pts
 			(xy 128.27 39.37) (xy 128.27 41.91)
 		)
 		(stroke
@@ -3038,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "ee2167ec-9bbe-406f-b226-71f55c2d57ec")
-	)
-	(wire
-		(pts
-			(xy 74.93 34.29) (xy 74.93 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a227fb-c975-4aef-bbeb-666158d8f6fb")
 	)
 	(wire
 		(pts
@@ -4255,7 +4245,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 74.93 38.1 90)
+		(at 74.93 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4266,7 +4256,7 @@
 		(fields_autoplaced yes)
 		(uuid "83c24598-3f75-472e-9eb5-2c895dd28049")
 		(property "Reference" "D1"
-			(at 78.74 38.4174 90)
+			(at 78.74 32.0674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,7 +4267,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 78.74 40.9574 90)
+			(at 78.74 34.6074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4288,7 +4278,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 74.93 38.1 0)
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +4289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 38.1 0)
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,7 +4300,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 74.93 38.1 0)
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4311,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 38.1 0)
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +4322,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 74.93 38.1 90)
+			(at 74.93 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4359,7 @@
 		(dnp no)
 		(uuid "884e3bf9-b390-41c2-b776-c0f719578406")
 		(property "Reference" "R1"
-			(at 45.974 50.292 90)
+			(at 45.974 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4379,15 +4369,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.7K"
-			(at 48.26 49.53 90)
+		(property "Value" "5K"
+			(at 48.26 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -4423,7 +4412,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13167"
+		(property "LCSC" "C862232"
 			(at 48.26 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4763,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 31.75 270)
+		(at 67.31 25.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4784,7 +4773,7 @@
 		(dnp no)
 		(uuid "b7b72733-8f7b-47f0-826b-a0451441273c")
 		(property "Reference" "R2"
-			(at 67.31 29.464 90)
+			(at 67.31 23.114 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4794,7 +4783,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 67.31 31.75 90)
+			(at 67.31 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4804,7 +4793,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 29.972 90)
+			(at 67.31 23.622 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 31.75 0)
+			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +4815,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 31.75 0)
+			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4837,7 +4826,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 67.31 31.75 90)
+			(at 67.31 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4864,7 +4853,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 50.8 31.75 90)
+		(at 50.8 25.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4874,7 +4863,7 @@
 		(dnp no)
 		(uuid "c586541c-1b68-4934-ae02-b7140d12f023")
 		(property "Reference" "C1"
-			(at 52.07 33.274 90)
+			(at 52.07 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4885,7 +4874,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 55.372 29.972 90)
+			(at 55.372 23.622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4896,7 +4885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 50.8 31.75 0)
+			(at 50.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 31.75 0)
+			(at 50.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 31.75 0)
+			(at 50.8 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,7 +4918,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 50.8 31.75 90)
+			(at 50.8 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4956,7 +4945,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 58.42 29.21 0)
+		(at 58.42 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4967,7 +4956,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6c92c70-5068-45b3-b48e-dbb79d864a08")
 		(property "Reference" "#PWR03"
-			(at 58.42 33.02 0)
+			(at 58.42 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4978,7 +4967,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 58.42 25.0769 0)
+			(at 58.42 18.7269 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4988,7 +4977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 29.21 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,7 +4988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 29.21 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +4999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 29.21 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
